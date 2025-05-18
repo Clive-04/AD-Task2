@@ -1,5 +1,5 @@
 <nav class="navbar">
-    <div class="navbar-content">
+    <div class="navbar-center">
         <a href="/index.php" class="logo-link">
             <img src="/assets/img/masterball.png" alt="Masterball Logo" class="logo">
         </a>
