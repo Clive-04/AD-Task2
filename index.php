@@ -15,7 +15,7 @@
             <p>Explore the world of Pokémon through our curated Pokédex of iconic starter Pokémon from every generation.</p>
 
             <div class="hero-section">
-                <img src="/assets/img/banner.jpg" alt="Starter Pokemon" class="hero-image">
+                <img src="/assets/img/banner.webp" alt="Starter Pokemon" class="hero-image">
             </div>
 
             <div class="cta">
