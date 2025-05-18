@@ -4,8 +4,8 @@
     function renderStarterList($filter = "All"){
         $starters = getStarterPokemon();
         foreach ($starters as $generation => $pokemonList) {
-            $filteredList = array_filter($pokemonList, function($poke) use ($filter){
-                return $filter === "All" || $poke['type'] === $filter;
+            $filteredList = array_filter($pokemonList, function($poke) use ($filter) {
+                return $filter === "All" || in_array($filter, $poke['type']);
             });
 
             if (count($filteredList) > 0){
@@ -14,7 +14,7 @@
                     echo "<div class='starter-card'>";
                     echo "<img src='../../" . $pokemon['image'] . "'alt='" . $pokemon['name'] . "'/>";
                     echo "<h3>" . $pokemon['name'] . "</h3>";
-                    echo "<p>Type: " . $pokemon['type'] . "</p>";
+                    echo "<p>Type: " . implode("/", $pokemon['type']) . "</p>";
                     echo "</div>";
                 }
                 echo "</div>";
