@@ -16,7 +16,7 @@ function getStarterPokemon() {
 
         "Gen 3" => [
             ["name" => "Treecko", "type" => ["Grass"], "image" => "assets/img/treecko.jpg"],
-            ["name" => "Torchi", "type" => ["Fire"], "image" => "assets/img/torchi.jpg"],
+            ["name" => "Torchic", "type" => ["Fire"], "image" => "assets/img/torchi.jpg"],
             ["name" => "Mudkip", "type" => ["Water"], "image" => "assets/img/mudkip.jpg"]
         ],
 
