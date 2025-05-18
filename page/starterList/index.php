@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="assets/css/starterList.css">
+        <link rel="stylesheet" href="/page/starterList/assets/css/starterList.css">
         <title>Starter Pokemon Dex</title>
     </head>
     <body>
