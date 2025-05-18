@@ -3,7 +3,7 @@
 function getStarterPokemon() {
     return [
         "Gen 1" => [
-            ["name" => "Bulbasaur", "type" => ["Grass", "Poison"], "image" => "assets/img/bulbasaur.jpg"],
+            ["name" => "Bulbasaur", "type" => ["Grass", "Poison"], "image" => "assets/img/bulbasaur.png"],
             ["name" => "Charmander", "type" => ["Fire"], "image" => "assets/img/charmander.jpg"],
             ["name" => "Squirtle", "type" => ["Water"], "image" => "assets/img/squirtle.jpg"]
         ],
