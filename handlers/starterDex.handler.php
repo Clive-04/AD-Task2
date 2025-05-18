@@ -9,7 +9,6 @@
             });
 
             echo "<div class='grid'>";
-            if (count($filteredList) > 0){
                 echo "<h2>$generation</h2><div class='starter-container'>";
                 foreach ($filteredList as $pokemon) {
                     echo "<div class='starter-card'>";
@@ -19,7 +18,6 @@
                     echo "</div>";
                 }
                 echo "</div>";
-            }
             echo "</div>";
         }
     }

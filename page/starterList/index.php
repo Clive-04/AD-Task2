@@ -1,5 +1,8 @@
-<?php include '../../components/navbar.component.php'; ?>
-<?php include '../../handlers/starterDex.handler.php'; ?>
+<?php 
+    include_once '../../components/navbar.component.php';
+    include_once '../../handlers/starterDex.handler.php';
+    $filter = $_GET['type'] ?? 'All';
+?>
 
 <!DOCTYPE html>
 <html>
@@ -8,20 +11,21 @@
         <title>Starter Pokemon Dex</title>
     </head>
     <body>
-        <h1>Starter Pokemon By Generation</h1>
-        <form method="GET">
-            <label for="filter">Filter by Type:</label>
-            <select name="filter" id="filter">
-                <option value="All">All</option>
-                <option value="Grass">Grass</option>
-                <option value="Fire">Fire</option>
-                <option value="Water">Water</option>
-            </select>
-            <button type="submit">Apply</button>
-        </form>
-        <?php 
-            $filter = $_GET['filter'] ?? 'All';
-            renderStarterList($filter);
-        ?>
+        <div class="container">
+            <h1>Pokemon Starter Dex</h1>
+
+            <div class="filter-bar">
+                <form method="GET">
+                    <select name="type" onchange="this.form.submit()">
+                        <option value="All" <?= $filter === "All" ? "selected" : "" ?>>All</option>
+                        <option value="Grass" <?= $filter === "Grass" ? "selected" : "" ?>>Grass</option>
+                        <option value="Fire" <?= $filter === "Fire" ? "selected" : "" ?>>Fire</option>
+                        <option value="Water" <?= $filter === "Water" ? "selected" : "" ?>>Water</option>
+                    </select>
+                </form>
+            </div>
+
+            <?php renderStarterList($filter); ?>
+        </div>
     </body>
 </html>
