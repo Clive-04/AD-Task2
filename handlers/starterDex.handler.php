@@ -8,6 +8,7 @@
                 return $filter === "All" || in_array($filter, $poke['type']);
             });
 
+            echo "<div class='grid'>";
             if (count($filteredList) > 0){
                 echo "<h2>$generation</h2><div class='starter-container'>";
                 foreach ($filteredList as $pokemon) {
@@ -19,6 +20,7 @@
                 }
                 echo "</div>";
             }
+            echo "</div>";
         }
     }
 ?>
