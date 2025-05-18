@@ -1,5 +1,5 @@
 <?php
-    require_once(__DIR__ . '/utils/StarterDex.util.php');
+    require_once(__DIR__ . '/../utils/StarterDex.util.php');
 
     function renderStarterList(){
         $starters = getStarterPokemon();
