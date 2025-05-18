@@ -6,6 +6,17 @@ body {
     color: #333;
 }
 
+.gen-group {
+    margin-bottom: 3rem;
+}
+
+.gen-heading {
+    text-align: center;
+    font-size: 1.75rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
 .navbar {
     background-color: #2c3e50;
     padding: 1rem;
