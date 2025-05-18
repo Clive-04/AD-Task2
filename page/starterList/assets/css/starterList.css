@@ -1,0 +1,19 @@
+.starter-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.starter-card {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.starter-card img {
+    width: 100px;
+    height: 100px;
+}
