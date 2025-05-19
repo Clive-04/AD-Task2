@@ -1,6 +1,7 @@
 <?php 
     include_once '../../components/navbar.component.php';
     include_once '../../handlers/starterDex.handler.php';
+    include_once '../../components/footer.component.php';
     $filter = $_GET['type'] ?? 'All';
 ?>
 
