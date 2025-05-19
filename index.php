@@ -24,3 +24,5 @@
         </div>
     </body>
 </html>
+
+<?php include_once 'components/footer.component.php'; ?>
