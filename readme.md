@@ -101,33 +101,46 @@ A simple, responsive Pokémon Starter Dex built with PHP, HTML, and CSS. Users c
 10. File Structure to follow below.
 
 ```
-AD-ProjectName
+AD-Task2
 └─ assets
 |   └─ css
-|   |   └─ name.css
+|   |   └─ global.css
 |   └─ img
-|   |   └─ name.jpeg/.jpg/.webp/.png
+|   |   └─ banner.webp
+|   |   └─ bulbasaur.png
+|   |   └─ charmander.png
+|   |   └─ chikorita.png
+|   |   └─ chimchar.jpg
+|   |   └─ cyndaquil.png
+|   |   └─ masterball.png
+|   |   └─ mudkip.png
+|   |   └─ oshawott.png
+|   |   └─ piplup.jpg
+|   |   └─ snivy.jpg
+|   |   └─ squirtle.png
+|   |   └─ tepig.jpg
+|   |   └─ torchic.jpg
+|   |   └─ totodile.png
+|   |   └─ treecko.png
+|   |   └─ turtwig.png
 |   └─ js
 |       └─ name.js
 └─ components
-|   └─ name.component.php
-|   └─ templates
-|      └─ name.component.php
+|   └─ navbar.component.php
 └─ handlers
-|   └─ name.handler.php
+|   └─ starterDex.handler.php
 └─ pages
-|  └─ pageName
+|  └─ starterList
 |     └─ assets
 |     |  └─ css
-|     |  |  └─ name.css
+|     |  |  └─ starterList.css
 |     |  └─ img
 |     |  |  └─ name.jpeg/.jpg/.webp/.png
 |     |  └─ js
 |     |     └─ name.js
 |     └─ index.php
 └─ utils
-|   └─ name.utils.php
-└─ vendor
+    └─ StarterDex.utils.php
 └─ .gitignore
 └─ bootstrap.php
 └─ composer.json
