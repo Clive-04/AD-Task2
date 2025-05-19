@@ -10,13 +10,11 @@
         <link rel="stylesheet" href="/assets/css/global.css">
     </head>
     <body>
+        <div class="hero-banner"></div>
+
         <div class="container">
             <h1>Welcome to the Pokemon Starter Dex</h1>
             <p>Explore the world of Pokémon through our curated Pokédex of iconic starter Pokémon from every generation.</p>
-
-            <div class="hero-section">
-                <div class="hero-background"></div>
-            </div>
 
             <div class="cta">
                 <a href="/page/starterList/index.php" class="button">Browse Starter Dex</a>
